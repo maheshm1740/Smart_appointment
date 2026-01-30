@@ -104,14 +104,18 @@ Maven
 PostgreSQL
 
 Steps
+```
 git clone <repository-url>
 cd smart-appointment
 mvn clean install
 mvn spring-boot:run
+```
+
 Application runs at:
 
 http://localhost:8080
-🔮 Future Enhancements
+
+## 🔮 Future Enhancements
 Authentication & authorization
 
 Notifications (Email / SMS)
