@@ -65,10 +65,12 @@ DELETE /appointments/{appointmentId}
 POST   /appointments/{appointmentId}/complete
 ```
 
-###Queue
+### Queue
 ```http
-GET /queues/doctor/{doctorId}
-Schedule
+GET /queues/doctor/{doctorId}\
+```
+### Schedule
+```http
 GET /schedules/doctor/{doctorId}
 ```
 ###🛠️ Tech Stack
